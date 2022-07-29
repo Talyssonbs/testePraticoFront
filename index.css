@@ -1,0 +1,181 @@
+.pai {
+    position: relative;
+    height: 568px;
+    width: 304px;
+    left: 18rem;
+    border-radius: 8px;
+    padding: 32px;
+
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+}
+
+body {
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.card1 {
+    background: #FFFFFF;
+    height: 489px;
+    width: 304px;
+    left: 160px;
+    top: 228px;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.imagem {
+    width: 240px;
+    height: 240px;
+}
+
+.descricao {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.preco {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #B5B5B6;
+    letter-spacing: -0.005em;
+    text-decoration-line: line-through;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.preco_atual {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #DA4B4F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.parcelas {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.005em;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.botao {
+    color: white;
+    height: 48px;
+    width: 240px;
+    left: 32px;
+    top: 488px;
+    border-radius: 5px;
+    padding: 12px, 24px, 12px, 24px;
+    background: #40B25C;
+}
+
+.check {
+    position: absolute;
+    display: none;
+    left: 60px;
+
+}
+
+small {
+    color: #848587;
+}
+
+footer {
+    text-align: center;
+}
+
+.textoFooter {
+    font-size: larger;
+}
+
+:hover.botao {
+    background: #1C6C3E;
+}
+
+:hover.card1 {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+:hover.card2 {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.bola {
+    left: 13rem;
+    top: 40px;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background: #F2F3F6;
+    border: 2px solid #1C1C1C
+}
+
+.coracao {
+    position: relative;
+    right: 0.3px;
+    top: 3px;
+    bottom: 25%;
+
+
+}
+
+.produto {
+    top: -35px;
+    position: relative;
+}
+
+:hover.bola {
+    border: 2px solid #DA4B4F;
+    background-color: #FEE5EC;
+}
+
+:focus.bola {
+    background: #DA4B4F;
+
+}
+
+:active.bola {
+    background: #C22539;
+}
+
+.botao:focus .check {
+    display: flex;
+}
+
+.botao:focus {
+    background: #A3F9B9;
+    border-radius: 5px;
+    color: #1C1C1C;
+}
