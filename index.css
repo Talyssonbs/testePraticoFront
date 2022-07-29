@@ -28,6 +28,8 @@ body {
 }
 
 .imagem {
+    position: relative;
+    right: 31px;
     width: 240px;
     height: 240px;
 }
@@ -132,14 +134,15 @@ footer {
 }
 
 .bola {
-    left: 13rem;
-    top: 40px;
+    z-index: 5;
+    left: 14rem;
+    top: -198px;
     position: relative;
     height: 40px;
     width: 40px;
     border-radius: 40px;
-    background: #F2F3F6;
-    border: 2px solid #1C1C1C
+    background: rgb(242, 243, 246);
+    border: 2px solid rgb(28, 28, 28);
 }
 
 .coracao {
@@ -152,8 +155,9 @@ footer {
 }
 
 .produto {
-    top: -35px;
+    top: -20px;
     position: relative;
+    left: 15px;
 }
 
 :hover.bola {

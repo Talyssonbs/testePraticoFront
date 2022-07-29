@@ -1,3 +1,5 @@
 O arquivo possui duas formas de implementar os dados, uma com array e a outra com a chamada da API consumida
+
 Para trocar a origem dos dados, entre no arquivo index.html e invirta os comentarios entre as linhas 22 e 23
+
 Para verificar a chamada da API comente a linha 23 e deixe a linha 22 sem comentar 
